@@ -1,5 +1,5 @@
 function Tag({ id }: { id: string }) {
-    return <div className="id-tag">#{id}</div>;
+    return <span>#{id}</span>;
 }
 
 export default Tag;

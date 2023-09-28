@@ -56,19 +56,19 @@ header {
     /* scroll-snap-align: start; */
 }
 
-.book .id-tag {
+.book span {
     position: absolute;
     top: 0rem;
-    left: 0.5rem;
-    background-color: rgb(255, 68, 0);
+    left: 0rem;
+    background-color: #c35600;
     color: whitesmoke;
     padding: 1rem;
-    border-radius: 50%;
+    border-top-left-radius: 25px;
 }
 
 .book img {
     border: 2px solid #333;
-    border-radius: 5%;
+    border-radius: 25px;
     width: 100%;
     object-fit: cover;
 }
